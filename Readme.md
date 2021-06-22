@@ -140,3 +140,4 @@ docker images -a | grep "days" | awk '{print $3}' | xargs docker rmi -f
   Set your email address:
   git config --global user.email "oguzhanndilbergmail.com"
   changed by oguz
+  thisline is for pipeline
