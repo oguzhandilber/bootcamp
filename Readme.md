@@ -136,7 +136,7 @@ docker images -a | grep "days" | awk '{print $3}' | xargs docker rmi -f
   
   Open the command line
   Set your username:
-  git config --global user.name "serkan.tasci"
+  git config --global user.name "oguzhandilber"
   Set your email address:
-  git config --global user.email "aliserkantasci@gmail.com"
-  değişiklik 23
+  git config --global user.email "oguzhanndilbergmail.com"
+  changed by oguz
