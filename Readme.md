@@ -144,3 +144,4 @@ docker images -a | grep "days" | awk '{print $3}' | xargs docker rmi -f
   this line is for buildjob
   thislineisforpipeline6
   success!!
+  new trigger
