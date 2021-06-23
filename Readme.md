@@ -141,5 +141,6 @@ docker images -a | grep "days" | awk '{print $3}' | xargs docker rmi -f
   git config --global user.email "oguzhanndilbergmail.com"
   changed by oguz
   thisline is for pipeline
+  this line is for buildjob
   thislineisforpipeline6
   success!!
