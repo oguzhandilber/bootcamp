@@ -19,6 +19,15 @@ data = {
   ]
 }
 
+healthcheck = {
+  "health": [
+    {
+      "status": "{OK}",
+    }
+   
+  ]
+}
+
 @helloworld.route("/data")
 def run():
     return jsonify(data)
