@@ -31,10 +31,12 @@ healthcheck = {
 @helloworld.route("/data")
 def run():
     return jsonify(data)
+  
 @helloworld.route("/healthcheck")
-def run():
+def run1():
     return jsonify(healthcheck)
   
 if __name__ == "__main__":
     helloworld.run(host="0.0.0.0", port=int("5000"), debug=True)
+    helloworld.run1(host="0.0.0.0", port=int("5000"), debug=True)
     
