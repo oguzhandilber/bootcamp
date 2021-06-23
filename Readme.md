@@ -142,3 +142,4 @@ docker images -a | grep "days" | awk '{print $3}' | xargs docker rmi -f
   changed by oguz
   thisline is for pipeline
   thislineisforpipeline6
+  success!
