@@ -29,6 +29,7 @@ sudo ufw allow 22/tcp
 ```
 
 ```
+
 sudo ufw status : Status: inactive ise
 sudo ufw enable
 sudo ufw default deny
